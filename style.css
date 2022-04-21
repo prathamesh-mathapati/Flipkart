@@ -1,0 +1,72 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e7ed;
+  gap: 1rem;
+}
+section {
+  background-color: white;
+}
+.logo {
+  width: 5rem;
+}
+.search {
+  border: none;
+  width: 35rem;
+}
+
+html {
+  font-size: 1vw;
+}
+
+.search-icon {
+  height: fit-content;
+  color: blue;
+}
+.example {
+  margin: 0 10rem;
+}
+.example::-webkit-scrollbar,
+.example-1::-webkit-scrollbar {
+  display: block;
+}
+
+.cur {
+  cursor: pointer;
+}
+.beby-1 {
+  width: 11rem;
+}
+.beby:hover,
+.baby:hover,
+.img-1:hover {
+  transform: scale(1.01);
+}
+
+.baby {
+  width: 7rem !important;
+}
+.view {
+  padding: 1rem;
+  width: 84%;
+}
+.offers {
+  cursor: pointer;
+  width: 15%;
+}
+.footer-bg {
+  background-color: #343c4e;
+}
+.b {
+  display: flex;
+  justify-content: space-around;
+}
+.border-1 {
+  height: fit-content;
+  border-left: solid rgb(102, 100, 100);
+}

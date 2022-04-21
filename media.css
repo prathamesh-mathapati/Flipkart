@@ -1,0 +1,17 @@
+@media (max-width: 1207px) {
+  .shopping {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+}
+
+@media (max-width: 1434px) {
+  .s {
+    width: 30rem;
+  }
+  .search {
+    width: 30rem;
+  }
+}
