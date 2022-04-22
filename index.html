@@ -50,19 +50,20 @@
   <link rel="stylesheet" href="/media.css" />
 </head>
 
-<body>
+<body style="height:100vh;">
   <header class="navbar container-fluid  navbar-dark bg-primary" style="font-size: .7rem;">
     <nav class="container d-flex">
       <div class="d-flex">
         <img src="/img/WhatsApp Image 2022-04-20 at 1.10.06 PM.jpeg" class="img-fluid logo" alt="" />
         <div class="d-flex gap-4">
           <div class="d-flex bg-white rounded s align-items-center">
-            <input class="form-control search me-2" type="search" placeholder="Search" aria-label="Search" />
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="search-icon bg-white"
-              fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <input class="form-control position-relative search me-2" type="search" placeholder="Search" aria-label="Search" />
+            <div style="width: 2rem;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="search-icon bg-white"
+              fill="currentColor" class="bi bi-search " viewBox="0 0 16 16">
               <path
                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-            </svg>
+            </svg></div>
+            
           </div>
 
           <button class="btn btn-outline-success bg-white px-5 text-primary"  type="submit">
@@ -90,7 +91,7 @@
             d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
             fill="#fff"></path>
         </svg>
-        &nbsp; Card
+        &nbsp; Cart
       </span>
     </nav>
   </header>
@@ -122,14 +123,14 @@
       </div>
       <div class="text-center align-items-center d-flex flex-column">
         <img src="/img/home.jpg" class="img-fluid" style="width: 4rem" alt="" />
-        <select name="ele" class="border-white bg-white w-50" id="">
+        <select name="ele" class="border-white bg-white w-75" id="">
           <option data="adio" type="">Home</option>
           <option value="">Living room</option>
         </select>
       </div>
       <div class="text-center align-items-center d-flex flex-column">
         <img src="/img/appli.png" class="img-fluid" style="width: 4rem" alt="" />
-        <select name="ele" class="border-white bg-white w-50" id="">
+        <select name="ele" class="border-white bg-white w-75" id="">
           <option data="adio" type="">Home</option>
           <option value="">Living room</option>
         </select>
@@ -164,8 +165,10 @@
           <button class="btn bg-primary text-white">VIEW ALL</button>
         </div>
         <hr />
-        <div class="d-flex overflow-scroll example-1 gap-5">
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+
+
+        <div class="d-flex overflow-scroll  example-1 gap-5">
+          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem; width: 23rem;">
             <img class="beby img-fluid"
               src="/img/dancing-cactus-with-lights-up-talking-singing-toy-decoration-original-imag7pxaxxfxfffq.jpeg"
               alt="" />
@@ -173,41 +176,42 @@
             <div class="text-success">Under ₹ 99</div>
             <div>Stacking Toy, Play ..</div>
           </div>
+          
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem;width: 6.5rem;">
             <img class="beby baby img-fluid" src="/img/-original-imagdkr7wbgppcun.jpeg" alt="" />
-            <div><strong>Induction Cooktops</strong></div>
+            <div><strong >Induction_Cooktops</strong></div>
             <div class="text-success">Up to 70% Off</div>
-            <div>Pigeon, Prestige & more</div>
+            <div>Pigeon, Prestige </div>
           </div>
 
-          <div class="d-flex gap-1 beby-1 cur flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 beby-1 cur flex-column align-items-center" style="font-size: 0.8rem ;width: 19rem;">
             <img class="baby img-fluid" src="/img/ace-plus-kent-original-imag6tz43kut2rvh.jpeg" alt="" />
-            <div><strong>Top Water Purifiers</strong></div>
+            <div><strong>Purifiers</strong></div>
             <div class="text-success">Under ₹ 99</div>
-            <div>Kent, Pureit & more</div>
+            <div>Kent, Pureit </div>
           </div>
 
-          <div class="d-flex gap-1 beby-1 cur flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 beby-1 cur flex-column align-items-center" style="font-size: 0.8rem;width:26rem;">
             <img class="beby img-fluid" src="/img/kh38-cbc700-black-casio-original-imafrhtdshpfmftj.jpeg" alt="" />
             <div><strong> Keyboards</strong></div>
             <div class="text-success">Upto 15% Off</div>
             <div>By Casio</div>
-          </div>
+          </div>  
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem ;width: 23rem;" >
             <img class="beby img-fluid" src="/img/med-blu-c-medellin-original-imag4yumkdhun5vn.jpeg" alt="" />
-            <div><strong> Ukuleles & Guitars</strong></div>
+            <div><strong> Ukuleles</strong></div>
             <div class="text-success">up to 75% off</div>
             <div>By Kadence</div>
           </div>
 
-          <div class="d-flex gap-1 cur bg-white beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur bg-white beby-1 flex-column align-items-center" style="font-size: 0.8rem ;width: 18rem;">
             <img class="baby img-fluid" src="/img/akg-jblcslm20b-jbl-commercial-original-imagff77r98vgjkg.jpeg"
               alt="" />
-            <div><strong> The World of Music</strong></div>
+            <div><strong>World Music</strong></div>
             <div class="text-success">Up to 80% off</div>
-            <div>Handpicked for you..!!</div>
+            <div>Handpicked..!!</div>
           </div>
           <!-- <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
             <img class="beby img-fluid"
@@ -217,11 +221,11 @@
             <div class="text-success">min 40% off</div>
             <h6>5,949</h6>
           </div> -->
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem;width: 25rem;">
             <img class="beby img-fluid"
               src="/img/girl pant.jpeg"
               alt="" />
-            <div><strong>T-Shirts, Pyjamas, Trousers...</strong></div>
+            <div><strong>T-Shirts, Pyjamas</strong></div>
             <div class="text-success">50%- 40% off</div>
             <h6>5,949</h6>
           </div>
@@ -229,78 +233,77 @@
       </div>
       <img src="/img/139439298ac18566.webp" class="img-fluid offers bg-white" alt="" />
     </div>
+    <section class="example">
+      <div class="d-flex fs justify-content-between px-4 pt-4">
+        <h4>Top Deals On Fashion</h4>
+        <button class="btn bg-primary text-white">VIEW ALL</button>
+      </div>
+      <hr />
+      <div class=" overflow-scroll example-1 d-flex">
+        <div>
 
+          <div class="d-flex example-1 overflow-scroll gap-5">
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <img class="img-fluid img-1" src="/img/cap.jpeg" alt="" />
+              <div><strong> Premium Caps</strong></div>
+              <div class="text-success">From ₹999</div>
+              <div class="fw-lighter">U.S.P.A., Adidas...</div>
+            </div>
+  
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <img class="img-fluid img-1" src="/img/sandel.jpeg" alt="" />
+              <div><strong>Best Selling Footwear</strong></div>
+              <div class="text-success">From ₹799</div>
+              <div class="fw-lighter">Sandals,Slippers & Flip Flops...</div>
+            </div>
+  
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <img class="img-fluid img-1" src="/img/shose-white.jpeg" alt="" />
+              <div><strong>Nike, ADIDAS, Puma..</strong></div>
+              <div class="text-success">Up to 60% Off</div>
+              <div class="fw-lighter">Running Shoes</div>
+            </div>
+  
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <img class="img-fluid img-1" src="/img/chapal-1.jpeg" alt="" />
+              <div><strong>Nike, ADIDAS, Puma..</strong></div>
+              <div class="text-success">Up to 60% Off</div>
+              <div class="fw-lighter">Running Shoes</div>
+            </div>
+  
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <img class="img-fluid img-1" src="/img/bul.jpeg" alt="" />
+              <div><strong>Sparx, Adda & more</strong></div>
+              <div class="text-success">From 199</div>
+              <div class="fw-lighter">Sandals, Slippers & more</div>
+            </div>
 
-
-    <section class="example d-flex overflow-hidden">
-
-      <div>
-        <div class="d-flex justify-content-between px-5 pt-3">
-          <h4>Top Deals On Fashion</h4>
-          <button class="btn bg-primary text-white">VIEW ALL</button>
-        </div>
-        <hr />
-        <div class="d-flex example-1 overflow-scroll gap-5">
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/cap.jpeg" alt="" />
-            <div><strong> Premium Caps</strong></div>
-            <div class="text-success">From ₹999</div>
-            <div class="fw-lighter">U.S.P.A., Adidas...</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/sandel.jpeg" alt="" />
-            <div><strong>Best Selling Footwear</strong></div>
-            <div class="text-success">From ₹799</div>
-            <div class="fw-lighter">Sandals,Slippers & Flip Flops...</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/shose-white.jpeg" alt="" />
-            <div><strong>Nike, ADIDAS, Puma..</strong></div>
-            <div class="text-success">Up to 60% Off</div>
-            <div class="fw-lighter">Running Shoes</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/chapal-1.jpeg" alt="" />
-            <div><strong>Nike, ADIDAS, Puma..</strong></div>
-            <div class="text-success">Up to 60% Off</div>
-            <div class="fw-lighter">Running Shoes</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/shse1.webp" alt="" />
-            <div><strong>Best Selling Footwear</strong></div>
-            <div class="text-success">30-60% Off</div>
-            <div class="fw-lighter">Men's Sneakers</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/bul.jpeg" alt="" />
-            <div><strong>Sparx, Adda & more</strong></div>
-            <div class="text-success">From 199</div>
-            <div class="fw-lighter">Sandals, Slippers & more</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/pand.webp" alt="" />
-            <div><strong> Popular Cargos</strong></div>
-            <div class="text-success">From ₹599</div>
-            <div class="fw-lighter">Best Collection</div>
-          </div>
-
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-            <img class="img-fluid img-1" src="/img/bra.jpeg" alt="" />
-            <div><strong> Popular Cargos</strong></div>
-            <div class="text-success">From ₹599</div>
-            <div class="fw-lighter">Best Collection</div>
-          </div>
-
-
-        </div>
-
+              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <img class="img-fluid img-1" src="/img/shse1.webp" alt="" />
+                <div><strong>Best Selling Footwear</strong></div>
+                <div class="text-success">30-60% Off</div>
+                <div class="fw-lighter">Men's Sneakers</div>
+              </div>
+    
+              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <img class="img-fluid img-1" src="/img/pand.webp" alt="" />
+                <div><strong> Popular Cargos</strong></div>
+                <div class="text-success">From ₹599</div>
+                <div class="fw-lighter">Best Collection</div>
+              </div>
+    
+              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <img class="img-fluid img-1" src="/img/bra.jpeg" alt="" />
+                <div><strong> Popular Cargos</strong></div>
+                <div class="text-success">From ₹599</div>
+                <div class="fw-lighter">Best Collection</div>
+              </div>
+              
+              </div>
+            </div>
     </section>
+
+
 
     <section class="example">
       <div class="d-flex fs justify-content-between px-4 pt-4">
@@ -312,57 +315,79 @@
         <div>
 
           <div class="d-flex  gap-5">
-            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+            <div class="d-flex gap-1 cur beby-1 position-relative flex-column align-items-center" style="font-size: 0.8rem;">
               <img class="img-fluid img-1" src="/img/cap-whach.jpeg" alt="" />
+              <div class="position-absolute" style="bottom: 0ch;">
               <div><strong> Caps</strong></div>
               <div class="text-success">40% off</div>
             </div>
+          </div>
             <div class="d-flex   gap-5">
-              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <div class="d-flex gap-1 position-relative cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
                 <img class="img-fluid img-1" src="/img/parfum.jpeg" alt="" />
+                <div class="position-absolute bottom-0">
                 <div><strong> Deodorants</strong></div>
-                <div class="text-success">Min. 30% Off</div>
+                <div class="text-success"> 30% Off</div>
               </div>
+            </div>
               <div class="d-flex  gap-5">
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <div class="d-flex gap-1 cur beby-1 position-relative flex-column align-items-center" style="font-size: 0.8rem">
+
                   <img class="img-fluid img-1" src="/img/mixser.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Mixer</strong></div>
                   <div class="text-success"> 20% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              </div>
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/jocky.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Jocky</strong></div>
                   <div class="text-success">60% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                </div>
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/chadi.jpeg" alt="" />
-
+                  <div class="position-absolute bottom-0">
                   <div><strong>Pand</strong></div>
                   <div class="text-success">10% Off</div>
                 </div>
+              </div>
 
 
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/bra.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
+
                   <div><strong> Bra</strong></div>
                   <div class="text-success">40% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              </div>
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/perfom.jpeg" alt="" />
-                  <div><strong> Deodorant Spray</strong></div>
+                  <!-- <div class="position-absolute bottom-0"> -->
+
+                  <div><strong> Deodorant_Spray</strong></div>
                   <div class="text-success">40% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <!-- </div> -->
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/abl.jpeg " alt="" />
+                  <div class="position-absolute bottom-0">
+
                   <div><strong>Instant Drink Mix</strong></div>
                   <div class="text-success">30% Off</div>
                 </div>
+                </div>
 
                 <div class="d-flex  gap-5">
-                  <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                  <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative"  style="font-size: 0.8rem">
                     <img class="img-fluid img-1" src="/img/biar.jpeg" alt="" />
+                    <div class="position-absolute bottom-0">
+
                     <div><strong> Soft Drink Products</strong></div>
                     <div class="text-success">10% off</div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -379,61 +404,61 @@
 
       <div>
 
-        <div class="d-flex example-1 overflow-scroll gap-4">
-          <div class="d-flex  gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+        <div class="d-flex example-1 overflow-scroll gap-4 px-2">
+          <!-- <div class="d-flex  gap-1 cur beby-1   flex-column align-items-center" style="font-size: 0.8rem">
             <img class="img-fluid img-1" src="/img/chapal.jpeg" alt="" />
             <div><strong> Best Selling Footwear</strong></div>
             <div class="text-success">Under ₹149</div>
             <div class="fw-lighter">Sandals, Slippers & morediv </div>
-          </div>
+          </div> -->
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem">
             <img class="img-fluid img-1" src="/img/shose-1.jpeg" alt="" />
             <div><strong>Best Selling Footwear</strong></div>
             <div class="text-success">From ₹799</div>
-            <div class="fw-lighter">Sandals,Slippers & Flip Flops...</div>
+            <div class="fw-lighter">Sandals,Slippers & Flip...</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem">
             <img class="img-fluid img-1" src="/img/shose-2.jpeg" alt="" />
             <div><strong>Sparx, Bata & more</strong></div>
             <div class="text-success">Up to 60% Off</div>
-            <div class="fw-lighter">Casual Shoes, Sneakers, Loafers</div>
+            <div class="fw-lighter">Casual Shoes, Sneakers</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem;">
             <img class="img-fluid img-1" src="/img/chapal-1.jpeg" alt="" />
             <div><strong>Nike, ADIDAS, Puma..</strong></div>
             <div class="text-success">Up to 60% Off</div>
             <div class="fw-lighter">Running Shoes</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem ; width: 20rem;">
             <img class="img-fluid img-1" src="/img/shse1.webp" alt="" />
             <div><strong>Best Selling Footwear</strong></div>
             <div class="text-success">30-60% Off</div>
             <div class="fw-lighter">Men's Sneakers</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem">
             <img class="img-fluid img-1" src="/img/shose-4.jpeg" alt="" />
             <div><strong>Converse, Levi's...</strong></div>
             <div class="text-success">From 199</div>
             <div class="fw-lighter">Sneakers, Loafers & more</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur flex-column align-items-center" style="font-size: 0.8rem ;width: 22rem;">
             <img class="img-fluid img-1" src="/img/shose-5.jpeg" alt="" />
             <div><strong> Woodland, USPA & more</strong></div>
             <div class="text-success">Upto 50% Off</div>
             <div class="fw-lighter">Casual Shoes</div>
           </div>
 
-          <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+          <div class="d-flex gap-1 cur  flex-column align-items-center" style="font-size: 0.8rem">
             <img class="img-fluid img-1" src="/img/shose-3.jpeg" alt="" />
             <div><strong> Best Selling Footwear</strong></div>
             <div class="text-success">Under ₹699</div>
-            <div class="fw-lighter">Sandals,Slippers & Flip Flops...</div>
+            <div class="fw-lighter">Sandals,Slippers & Flip ...</div>
           </div>
 
 
@@ -451,63 +476,83 @@
         <div>
 
           <div class="d-flex  gap-5">
-            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+            <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
               <img class="img-fluid img-1" src="/img/sartwhach.webp" alt="" />
+<!-- <div class="position-absolute bottom-0"></div> -->
+            <div class="position-absolute bottom-0">
+
               <div><strong> Smart Bands</strong></div>
               <div class="text-success">40% off</div>
             </div>
+          </div>
             <div class="d-flex   gap-5">
-              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                 <img class="img-fluid img-1" src="/img/headbag's.jpeg" alt="" />
+                <div class="position-absolute bottom-0">
                 <div><strong> Headphones</strong></div>
                 <div class="text-success">Min. 50% Off</div>
               </div>
+            </div>
+
               <div class="d-flex  gap-5">
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/biar.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Eyeliner</strong></div>
                   <div class="text-success">Min. 20% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              </div>
+
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/cup.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Mugs</strong></div>
                   <div class="text-success">Min. 60% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
-                  <img class="img-fluid img-1" src="/img/whish.jpeg" alt="" />
+              </div>
 
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
+                  <img class="img-fluid img-1" src="/img/whish.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Sanitady Pad</strong></div>
                   <div class="text-success">Min. 10% Off</div>
                 </div>
+              </div>
 
 
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/bolal.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Water Bottles</strong></div>
                   <div class="text-success">Min. 40% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              </div>
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/oderth.jpeg" alt="" />
+                  <div class="position-absolute bottom-0">
                   <div><strong> Other entrance Exam bo..</strong></div>
                   <div class="text-success">Min. 40% Off</div>
                 </div>
-                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+              </div>
+                <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                   <img class="img-fluid img-1" src="/img/set wat.jpeg" alt="" />
+                  <div class="position-absolute bottom-0"></div>
                   <div><strong>Deodorants</strong></div>
                   <div class="text-success">Min. 30% Off</div>
                 </div>
 
                 <div class="d-flex  gap-5">
-                  <div class="d-flex gap-1 cur beby-1 flex-column align-items-center" style="font-size: 0.8rem">
+                  <div class="d-flex gap-1 cur beby-1 flex-column align-items-center position-relative" style="font-size: 0.8rem">
                     <img class="img-fluid img-1" src="/img/chapal.jpeg" alt="" />
+                    <div class="position-absolute bottom-0">
                     <div><strong> Smart Bands</strong></div>
                     <div class="text-success">40% off</div>
+                  </div>
                   </div>
                 </div>
               </div>
             </div>
     </section>
-
   </main>
 
   <footer class="footer-bg container-fluid">
@@ -522,8 +567,6 @@
           <span class="text-white"> Press</span>
           <span class="text-white"> Flipkart Wholesale</span>
           <span class="text-white"> Corporate Information</span>
-
-
         </div>
         <div class="cur d-flex flex-column gap-2" style="font-size: .7rem;">
           <p class="text-secondary ">HELP</p>
@@ -543,15 +586,12 @@
           <span class="text-white"> Sitemap</span>
           <span class="text-white"> EPR Compliance</span>
         </div>
-
-
         <div class="cur d-flex flex-column gap-2" style="font-size: .7rem;">
           <p class="text-secondary ">SOCIAL</p>
           <span class="text-white"> Facebook</span>
           <span class="text-white"> Twitter</span>
           <span class="text-white"> YouTube</span>
         </div>
-
         <div class=" d-flex flex-column gap-2 border-1 ps-4 " style="font-size: .7rem;">
           <p class="text-secondary ">Mail Us:</p>
           <span class="text-white"> Flipkart Internet Private Limited,</span>
@@ -559,10 +599,7 @@
           <span class="text-white"> Clove Embassy Tech Village,</span>
           <span class="text-white"> Outer Ring Road, Devarabeesanahalli Village,</span>
           <span class="text-white"> Karnataka, India</span>
-
         </div>
-
-
         <div class="cur d-flex flex-column gap-2" style="font-size: .7rem;">
           <p class="text-secondary ">Registered Office Address:</p>
           <span class="text-white"> Flipkart Internet Private Limited,</span>
@@ -573,26 +610,19 @@
           <span class="text-white"> Karnataka, India</span>
           <span class="text-white"> CIN : U51109KA2012PTC066107</span>
           <span class="text-white"> Telephone: 1800 202 9898</span>
-
         </div>
     </div>
     <hr class="text-white">
-
-
     <div>
-      <ul class="text-white d-flex  justify-content-around p-4"  style="  list-style-type: none;">
-        <li class="d-flex text-center gap-2 " > <img src="/img/bag.svg" class="img-fluid" alt=""> Become a Seller</li>
-        <li class="d-flex text-center gap-2"> <img src="/img/star.svg" class="img-fluid" alt=""> Advertise</li>
-        <li class="d-flex text-center gap-2"> <img src="/img/gift.svg" class="img-fluid" alt=""> Gift Cards</li>
-        <li class="d-flex text-center gap-2"> <img src="/img/qus.svg" alt=""> Help Center</li>
-        <li class="d-flex text-center gap-2">  © 2007-Flipkart.com</li>
-        <li class="d-flex text-center gap-2"> <img src="/img/visa.svg" class="img-fluid" alt=""> </li>
-
-
-
+      <ul class="text-white d-flex  justify-content-around pb-3"  style="  list-style-type: none;">
+        <li class="d-flex text-center gap-2 img-fluid " > <img src="/img/bag.svg" class="img-fluid" alt=""> Become a Seller</li>
+        <li class="d-flex text-center gap-2 img-fluid"> <img src="/img/star.svg" class="img-fluid" alt=""> Advertise</li>
+        <li class="d-flex text-center gap-2 img-fluid"> <img src="/img/gift.svg" class="img-fluid" alt=""> Gift Cards</li>
+        <li class="d-flex text-center gap-2 img-fluid"> <img src="/img/qus.svg" alt=""> Help Center</li>
+        <li class="d-flex text-center gap-2 img-fluid">  © 2007-Flipkart.com</li>
+        <li class="d-flex text-center gap-2 img-fluid "> <img src="/img/visa.svg" class="img-fluid" alt=""> </li>
       </ul>
     </div>
-
   </footer>
 
 </body>

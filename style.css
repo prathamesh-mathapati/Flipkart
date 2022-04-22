@@ -27,6 +27,7 @@ html {
 .search-icon {
   height: fit-content;
   color: blue;
+  /* right: 45%; */
 }
 .example {
   margin: 0 10rem;
@@ -45,7 +46,7 @@ html {
 .beby:hover,
 .baby:hover,
 .img-1:hover {
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 
 .baby {
