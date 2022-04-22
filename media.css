@@ -15,3 +15,41 @@
     width: 30rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .beby-1 {
+    width: 21rem;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+}
+@media (max-width: 400px) {
+  .img-2 {
+    width: 12rem;
+  }
+  .img-3 {
+    width: 15rem;
+  }
+  .img-4 {
+    width: 17rem;
+  }
+  .img-5 {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .img-6 {
+    width: 18rem;
+  }
+  .search-icon {
+    width: 2rem;
+  }
+}

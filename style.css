@@ -27,10 +27,6 @@ html {
 .search-icon {
   height: fit-content;
   color: blue;
-  /* right: 45%; */
-}
-.example {
-  margin: 0 10rem;
 }
 .example::-webkit-scrollbar,
 .example-1::-webkit-scrollbar {
